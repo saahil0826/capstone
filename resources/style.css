@@ -17,7 +17,6 @@ color: black;
 margin: auto;
 align-items: center;
 max-width: 100%;
- border: 6px solid red;
 }
 
 
@@ -48,12 +47,26 @@ margin-right: 16px;
 }
 
 .main{
+  display: flex;
   background-color: #e6eeef;
   display: flex;
 }
 .image1{
-  max-width: 60%;
+  width: 100%;
   margin: 32px 24px 32px 24px;
+}
+
+.text h1{
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.text span{
+font-size: 25px;
+}
+
+.box span{
+  font-size: 20px;
 }
 
 .main .text .box{
@@ -65,3 +78,115 @@ margin-right: 16px;
   color: white;
   max-width: 20px;
 }
+
+
+.blocks{
+  background-color: #e6eeef;
+}
+
+.blocks h1{
+  padding-top: 32px;
+  margin-bottom: 32px;
+display: flex;
+justify-content: center;
+font-size: 45px;
+font-weight: bold;
+}
+
+.flex-container{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 72px;
+  margin-left: 72px;
+  padding-bottom: 32px;
+}
+
+.image-content{
+  max-width: 33.33%;
+  margin-bottom: 32px;
+}
+
+.image-content img{
+  display: block;
+  height: 200px;
+}
+
+.text-content{
+  padding-left: 16px;
+  background-color: white;
+  padding-bottom: 24px;
+  max-width: 100%;
+
+ }
+
+.text-content h3{
+  padding-top: 16px;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.text-content h4{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: lighter;
+}
+
+.text-content span{
+font-size: 15px;
+  font-weight: lighter;
+
+}
+
+
+
+.end h1{
+  padding-top: 32px;
+  margin-bottom: 32px;
+display: flex;
+justify-content: center;
+font-size: 45px;
+font-weight: bold;
+}
+
+.media{
+  padding-bottom: 32px;
+  display: flex;
+}
+
+.video{
+  margin-left: 24px;
+  margin-right: 24px;
+  max-width: 60%;
+}
+
+.video h2{
+margin-top: 24px;
+margin-bottom: 8px;
+}
+
+footer{
+  border-top: 1px solid grey;
+}
+
+.foo{
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+  .links{
+    display: flex;
+  justify-content: space-between;
+
+  }
+
+  .links .span{
+  margin-right: 16px;
+  }
