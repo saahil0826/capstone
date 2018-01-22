@@ -50,11 +50,15 @@ margin-right: 16px;
   display: flex;
   background-color: #e6eeef;
 }
-.image1{
+.image1 {
   display: inline-block;
   width: 60%;
   height: 100%;
   margin: 32px 24px 32px 24px;
+}
+
+.image1 img{
+  width: 100%;
 }
 
 .text{
@@ -81,9 +85,49 @@ font-size: 25px;
 }
 
 .box span{
-  padding: 8px 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   color: white;
   max-width: 20px;
+}
+
+.middle{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.left{
+  width: 60%;
+  height: 100%;
+  display: inline-block;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-right: 1px solid grey;
+}
+
+.left img{
+  width:100%;
+
+}
+
+.left .text-content1{
+  max-width:90%;
+}
+
+.left .text-content1 h1{
+margin-top: 32px;
+margin-bottom: 24px;
+font-weight: bold;
+font-size: 50px;
+}
+
+.left .text-content1 h3{
+margin-bottom: 32px;
+font-weight: lighter;
+}
+
+.left .text-content1 span{
+  font-size: 15px;
 }
 
 
@@ -111,7 +155,7 @@ font-weight: bold;
 }
 
 .image-content{
-  max-width: 33.33%;
+  width: 33.33%;
   margin-bottom: 32px;
 }
 
@@ -124,8 +168,8 @@ font-weight: bold;
   padding-left: 16px;
   background-color: white;
   padding-bottom: 24px;
-  max-width: 100%;
-
+  width: 87%;
+  height: 150px;
  }
 
 .text-content h3{
@@ -142,7 +186,7 @@ font-weight: bold;
 }
 
 .text-content span{
-font-size: 15px;
+font-size: 18px;
   font-weight: lighter;
 
 }
@@ -163,15 +207,32 @@ font-weight: bold;
   display: flex;
 }
 
-.video{
+.media .left2{
   margin-left: 24px;
   margin-right: 24px;
-  max-width: 60%;
+
+}
+
+.video{
+width: 60%;
+height: 100%;
+display: inline-block;
+}
+
+.video video{
+  width:100%;
 }
 
 .video h2{
 margin-top: 24px;
 margin-bottom: 8px;
+font-weight: bold;
+font-size: 20px;
+}
+
+.video span{
+  font-size: 15px;
+  font-weight: lighter;
 }
 
 footer{
