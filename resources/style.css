@@ -161,7 +161,7 @@ width: 35%;
 }
 .ads .image1 img{
   height: 225px;
-  width: auto;
+  width: 200px;
 }
 
 .ads .text-content0{
@@ -304,6 +304,7 @@ font-size: 20px;
     flex-direction: column;
     width: 40%;
     margin-right: 9px;
+
 }
 
 
@@ -325,6 +326,7 @@ font-size: 20px;
   flex-direction: column;
   align-items:  flex-start;
   justify-content: center;
+
 }
 
 
@@ -334,12 +336,13 @@ font-size: 20px;
 
 .ads1 .text-content1 h1{
   font-weight: bold;
-  font-size: 25px;
+  font-size: 23px;
+  margin-bottom: 8px;
 }
 
 .ads1 .text-content1 span{
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 footer{
@@ -353,17 +356,19 @@ footer{
   margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
+  font-weight: lighter;
 }
 
 
-  .links{
+.links{
     display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  width: 150px;
 
   }
 
-  .links .span{
-  padding-right: 16px;
-  margin-right: 10px;
-  color: red;
+.links .span{
+
+  margin-right: 1px;
+
   }
