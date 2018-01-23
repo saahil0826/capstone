@@ -50,7 +50,7 @@ margin-right: 16px;
   display: flex;
   background-color: #e1e4ea;
 }
-.image1 {
+.image0 {
   display: inline-block;
   width: 60%;
   height: 100%;
@@ -58,7 +58,7 @@ margin-right: 16px;
 
 }
 
-.image1 img{
+.image0 img{
   width: 100%;
 }
 
@@ -107,15 +107,16 @@ font-weight: lighter;
 .middle{
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
 }
 
 .left{
   width: 60%;
   height: 100%;
-  display: inline-block;
   padding-left: 24px;
   padding-right: 24px;
   border-right: 1px solid grey;
+  display: inline-block;
 }
 
 .left img{
@@ -143,6 +144,54 @@ font-weight: lighter;
   font-size: 15px;
 }
 
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 9px;
+}
+.right .ads{
+  display: flex;
+  border: 1px solid red;
+}
+.ads .image1{
+  margin: 16px;
+border: 1px solid red;
+width: 35%;
+}
+.ads .image1 img{
+  height: 225px;
+  width: auto;
+}
+
+.ads .text-content0{
+  display: flex;
+  flex-direction: column;
+  align-items:  flex-start;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+/*
+.ads1 .text-content0 .hey{
+  max-width: 30%;
+}*/
+
+.ads .text-content0 h1{
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+.ads .text-content0 span{
+  font-weight: lighter;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+a{
+  color: #22c0f4;
+}
 
 .blocks{
   background-color: #e1e4ea;
@@ -258,37 +307,37 @@ font-size: 20px;
 }
 
 
-.media .ads{
+.media .ads1{
   display: flex;
-  border: 1px solid red;
 }
 
-.ads .image2{
-
+.ads1 .image2{
   margin: 16px;
-  border: 1px solid red;
 }
 
-.ads .image2 img{
-  width: 35%;
-  height: auto;
+.ads1 .image2 img{
+  height: 150px;
 }
 
-.ads .text-content1{
+.ads1 .text-content1{
   width: 65%;
   display: flex;
   flex-direction: column;
   align-items:  flex-start;
   justify-content: center;
-  border: 1px solid red;
 }
 
-.ads .text-content1 h1{
+
+.ads1 .text-content1 .hey{
+  max-width: 80%;
+}
+
+.ads1 .text-content1 h1{
   font-weight: bold;
   font-size: 25px;
 }
 
-.ads .text-content1 span{
+.ads1 .text-content1 span{
   font-weight: lighter;
   font-size: 20px;
 }
@@ -315,4 +364,6 @@ footer{
 
   .links .span{
   padding-right: 16px;
+  margin-right: 10px;
+  color: red;
   }
