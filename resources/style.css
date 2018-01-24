@@ -473,7 +473,8 @@ font-weight: lighter;
 .right{
   display: block;
   width: 100%;
-  margin-left: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin-top: 16px;
   margin-bottom: 32px;
   border-bottom: 1px solid grey;
@@ -485,10 +486,14 @@ font-weight: lighter;
   border: 1px solid red;
 }
 
+.ads .image1{
+  margin: none;
+width: 100%;
+}
+
 .ads .image1 img{
-  height: 100%;
   width: 100%;
-  margin-bottom: 64px;
+  margin-bottom: 30px;
   border: 1px solid red;
 /* why did i have to set the heigth and the width manually,
  to fit it inside the .image container?*/
