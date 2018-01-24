@@ -152,16 +152,17 @@ font-weight: lighter;
 }
 .right .ads{
   display: flex;
-  border: 1px solid red;
+  border-bottom: 1px solid grey;
 }
 .ads .image1{
   margin: 16px;
-border: 1px solid red;
 width: 35%;
 }
 .ads .image1 img{
-  height: 225px;
-  width: 200px;
+  height: 200px;
+  width: 190px;
+/* why did i have to set the heigth and the width manually,
+ to fit it inside the .image container?*/
 }
 
 .ads .text-content0{
@@ -169,7 +170,8 @@ width: 35%;
   flex-direction: column;
   align-items:  flex-start;
   justify-content: center;
-  border: 1px solid red;
+
+
 }
 
 /*
@@ -181,12 +183,14 @@ width: 35%;
   font-weight: bold;
   font-size: 25px;
   margin-bottom: 8px;
+    max-width: 80%;
 }
 
 .ads .text-content0 span{
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 8px;
+  max-width: 90%;
 }
 
 a{
@@ -368,7 +372,28 @@ footer{
   }
 
 .links .span{
-
   margin-right: 1px;
-
   }
+
+
+
+  /* media queries*/
+
+  @media only screen and (min-width: 1024px) {
+    .mobilenav {
+      display: none;
+    }
+  }
+
+
+  @media only screen and (max-width: 470px) {
+  .top{
+    display: none;
+  }
+
+
+  .mobilenav {
+    display: flex;
+    justify-content: space-around;
+  }
+}
