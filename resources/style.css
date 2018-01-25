@@ -1,5 +1,5 @@
 body{
-font-family: "Helvetica";
+font-family: 'Work Sans', sans-serif;
 font-size: 18px;
 line-height: 1.4;
 }
@@ -9,9 +9,6 @@ line-height: 1.4;
     margin: 0px auto;
 }
 
-header{
-
-}
 
 .big{
   height: 64px;
@@ -46,9 +43,13 @@ nav ul li{
 margin-right: 16px;
 }
 
+nav ul li:hover{
+    font-weight: bold;
+  }
+
 .main{
   display: flex;
-  background-color: #e1e4ea;
+  background-color: #f4fbff;
 }
 .image0 {
   display: inline-block;
@@ -86,10 +87,6 @@ padding-bottom: 32px;
 font-weight: lighter;
 }
 
-.box span{
-  font-size: 20px;
-}
-
 .main .text .box{
   background-color: #333738;
 }
@@ -101,8 +98,10 @@ font-weight: lighter;
   justify-content: center;
   display: flex;
   font-size: 20px;
-
 }
+
+
+
 
 .middle{
   padding-top: 32px;
@@ -172,8 +171,9 @@ width: 35%;
   align-items:  flex-start;
   justify-content: center;
 
-
 }
+
+
 
 /*
 .ads1 .text-content0 .hey{
@@ -198,8 +198,13 @@ a{
   color: #22c0f4;
 }
 
+
+.right :hover {
+  background-color: #f4fbff;
+}
+
 .blocks{
-  background-color: #e1e4ea;
+  background-color: #f4fbff;
 }
 
 .blocks h1{
@@ -303,7 +308,7 @@ font-size: 20px;
 }
 
 .video span{
-  font-size: 15px;
+  font-size: 17px;
   font-weight: lighter;
 }
 
@@ -312,9 +317,11 @@ font-size: 20px;
     flex-direction: column;
     width: 40%;
     margin-right: 9px;
-
 }
 
+.right2 :hover {
+  background-color: #f4fbff;
+}
 
 .media .ads1{
   display: flex;
@@ -365,7 +372,7 @@ footer{
   margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 
@@ -380,6 +387,9 @@ footer{
   margin-right: 1px;
   }
 
+.links :hover{
+    font-weight: bold;
+  }
 
 
   /* media queries*/
@@ -565,7 +575,7 @@ justify-content: center;
   padding-left: 16px;
   font-size: 25px;
   font-weight: bold;
-  background-color: #e1e4ea;
+  background-color: #def1fc;
 }
 
 .right2{
